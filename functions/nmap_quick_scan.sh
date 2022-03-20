@@ -7,4 +7,6 @@
 # -Pn Doens't pings the target.
 # -oG generates an output of the resulted scan.
 
-nmap -p- --open -sS --min-rate 5000 -n -Pn $(ip) -oG allPorts
+function fpscan() {
+    nmap -p- --open -sS --min-rate 5000 -n -Pn $1 -oG allPorts
+}
