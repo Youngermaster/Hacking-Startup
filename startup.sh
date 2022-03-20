@@ -11,7 +11,6 @@ mkdir -p ~/GitHub/Youngermaster
 mkdir -p ~/GitHub/AnotherOnes
 
 ## Setup finctions
-cd ~
 echo "" >> ~/.bashrc
 cat ./functions/extract_nmap_info.sh >> ~/.bashrc
 cat ./functions/fast_ping.sh >> ~/.bashrc
