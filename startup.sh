@@ -1,8 +1,3 @@
-# Make sure to run as root
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install seclists gobuster ghidra -y
-
 ## Setup folders
 mkdir -p ~/HackTheBox/config
 mkdir -p ~/HackTheBox/machines
