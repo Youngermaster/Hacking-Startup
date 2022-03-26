@@ -8,5 +8,5 @@
 # -oG generates an output of the resulted scan.
 
 function fpscan() {
-    nmap -p- --open -sS --min-rate 5000 -n -Pn $1 -oG allPorts
+    sudo nmap -p- --open -sS --min-rate 5000 -n -Pn $1 -oG allPorts -vvv --open
 }
