@@ -10,3 +10,4 @@
 function fpscan() {
     sudo nmap -p- --open -sS --min-rate 5000 -n -Pn $1 -oG allPorts -vvv --open
 }
+

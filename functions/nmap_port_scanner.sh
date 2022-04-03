@@ -7,3 +7,4 @@ nmap -sCV -p$(ports) $ip -oN targeted
 # Note: If the target blocks the pings, use the -Pn flag
 
 nmap -sCV -p$(ports) $ip -oN targeted -Pn
+
