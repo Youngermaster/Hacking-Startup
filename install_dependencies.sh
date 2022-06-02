@@ -9,3 +9,6 @@ sudo apt-get install python3 python3-venv python3-pip -y
 pip3 install matplotlib numpy matplotlib jupyterlab kerbrute usersgenerator ldap3 dnspython future ldapdomaindump
 
 sudo apt-get upgrade -y
+
+# This is added to let the terminal use the tools installed with pip
+echo "export PATH=\"$HOME/.local/bin:$PATH\"" >> ~/.zshrc
