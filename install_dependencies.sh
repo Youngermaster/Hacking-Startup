@@ -23,6 +23,9 @@ pip3 install matplotlib numpy jupyterlab kerbrute usersgenerator ldap3 dnspython
 # General Packages
 sudo apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev light -y
 
+# In case there is an error
+sudo apt update --fix-missing -y
+
 # Tiling window manager stuff
 cd ~/GitHub/AnotherOnes/
 git clone https://github.com/baskerville/bspwm.git
@@ -47,6 +50,9 @@ mkdir ~/.config/bspwm/scripts/
 touch ~/.config/bspwm/scripts/bspwm_resize; chmod +x ~/.config/bspwm/scripts/bspwm_resize
 
 # Polybar installation
+sudo apt remove libcurl4 -y
+sudo apt install curl -y
+sudo apt install libuv1 libuv1-dev -y
 sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev -y 
  
 cd ~/GitHub/AnotherOnes

@@ -1,3 +1,9 @@
 # Hacking Startup
 
-The idea of this repo is to execute a script that setups all the my needed tools and configuration for Penetration testing in a Linux machine (Kali or Parrot) environment.
+The idea of this repo is to execute a script that setups all my needed tools and configurations for my Penetration testing OS (either Kali or Parrot).
+
+# How to run
+
+```shell
+bash ./startup.sh
+```
