@@ -6,7 +6,7 @@ mkdir -p ~/GitHub/Youngermaster
 mkdir -p ~/GitHub/AnotherOnes
 mkdir -p ~/Pictures/Wallpapers
 
-bash ./install_dependencies
+bash ./install_dependencies.sh
 cp ./assets/.zshrc ~/
 sudo cp ./assets/fonts/* /usr/local/share/fonts/
 fc-cache -v
