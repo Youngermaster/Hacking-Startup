@@ -20,5 +20,5 @@ bspc rule -a Screenkey manage=off
 picom --experimental-backends &
 bspc config border_width 0
 
-feh --bg-fill /home/nightwing/Pictures/Wallpapers/wallpaper.jpg
+feh --bg-fill /home/kali/Pictures/Wallpapers/wallpaper.jpg
 xsetroot -cursor_name left_ptr &
