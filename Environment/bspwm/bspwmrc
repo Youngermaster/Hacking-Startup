@@ -19,5 +19,5 @@ bspc rule -a Screenkey manage=off
 ~/.config/polybar/./launch.sh
 picom --experimental-backends &
 
-feh --bg-fill /home/kali/Pictures/Wallpapers/wallpaper.jpg
+feh --bg-fill /home/kali/Pictures/Wallpapers/wallpaper.png
 xsetroot -cursor_name left_ptr &
