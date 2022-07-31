@@ -12,8 +12,8 @@ bash ./startup.sh
 
 ## Red Obsidian (My default One)
 
-![MinimalBspwm.png](./github/assets/MinimalBspwm.png)
+![MinimalBspwm.png](.github/assets/MinimalBspwm.png)
 
 ## Minimal Bspwm
 
-![MinimalBspwm.png](./github/assets/MinimalBspwm.png)
+![MinimalBspwm.png](.github/assets/MinimalBspwm.png)
