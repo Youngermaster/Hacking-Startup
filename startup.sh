@@ -7,13 +7,14 @@ mkdir -p ~/GitHub/AnotherOnes
 mkdir -p ~/Pictures/Wallpapers
 
 cp ./assets/wallpaper.png ~/Pictures/Wallpapers/
+cp ./assets/wallpaper_black.png ~/Pictures/Wallpapers/
 bash ./install_dependencies.sh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 cp ./assets/.zshrc ~/
 sudo cp ./assets/fonts/* /usr/local/share/fonts/
 fc-cache -v
-cp -r ./Environment/RedObsidian/* ~/.config
+cp -r ./Environment/RedObsidian/* ~/.config/
 
 # This is added to let the terminal use the tools installed with pip
 echo "export PATH=\"$HOME/.local/bin:$PATH\"" >> ~/.zshrc

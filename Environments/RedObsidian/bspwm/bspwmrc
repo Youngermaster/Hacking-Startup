@@ -40,4 +40,4 @@ bspc config borderless_monocle    true
 bspc config gapless_monocle       true
 bspc config focus_follows_pointer true
 
-feh --bg-fill ~/Pictures/Wallpapers/wallpaper.png
+feh --bg-fill ~/Pictures/Wallpapers/wallpaper_black.png
