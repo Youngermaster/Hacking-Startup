@@ -6,7 +6,7 @@ sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep 
 sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger -y
 
 # Graphical stuff
-sudo apt-get install kitty linux-headers-generic baobab libuv1-dev flameshot shotwell mupdf libxinerama-dev -y
+sudo apt-get install kitty dunst linux-headers-generic baobab libuv1-dev flameshot shotwell mupdf libxinerama-dev -y
 sudo apt install xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev light -y
 
 # ZSH

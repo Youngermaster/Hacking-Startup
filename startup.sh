@@ -13,7 +13,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 cp ./assets/.zshrc ~/
 sudo cp ./assets/fonts/* /usr/local/share/fonts/
 fc-cache -v
-cp -r ./Environment/* ~/.config
+cp -r ./Environment/RedObsidian/* ~/.config
 
 # This is added to let the terminal use the tools installed with pip
 echo "export PATH=\"$HOME/.local/bin:$PATH\"" >> ~/.zshrc

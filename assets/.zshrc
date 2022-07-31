@@ -301,30 +301,6 @@ setopt appendhistory
 export PATH=$PATH:$HOME/.cargo/env
 export PATH="$HOME/.local/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
-export PATH="$PATH:/home/youngermaster/Flutter/flutter/bin"
-export PATH="$PATH:/home/youngermaster/AndroidStudio/android-studio/bin"
-# Optional Development paths
-#export PATH="$PATH:/home/youngermaster/JetBrains/Rider/bin/"
-#export DOTNET_ROOT="/usr/share/dotnet"
-#export PATH="$PATH:/usr/share/dotnet"
-#export PATH="$PATH:/home/youngermaster/AppImages"
-
-# Android SDK Tools
-export PATH="$PATH:/home/youngermaster/Android/Sdk/build-tools/32.0.0/"
-export PATH="$PATH:/home/youngermaster/Android/Sdk/cmdline-tools/latest/bin/"
-export ANDROID_SDK_ROOT=/home/youngermaster/Android/Sdk
-export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
-
-# Pomodoro Program PATH
-export PATH="$PATH:/usr/share/pomodoro_cli/"
-
-# Git config
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519_youngermaster_github
-ssh-add ~/.ssh/id_ed25519_youngermaster_gitlab
-ssh-add ~/.ssh/id_rsa_jmyoung_getaclub
-clear
 
 # To avoid errors gray screens with IDEA IDEs or Android Studio
 wmname LG3D
