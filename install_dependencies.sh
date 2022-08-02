@@ -1,6 +1,8 @@
-# ! Make sure to run as root
+# First we update the packages
 sudo apt-get update -y
-sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep sed python3-impacket john responder -y
+
+# Security Related Tools
+sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep sed python3-impacket john responder lapsdumper -y
 
 # Development stuff
 sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger -y
