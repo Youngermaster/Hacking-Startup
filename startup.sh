@@ -21,7 +21,8 @@ echo "export PATH=\"$HOME/.local/bin:$PATH\"" >> ~/.zshrc
 
 ## Setup finctions
 echo "" >> ~/.zhsrc
-cat ./functions/extract_nmap_info.sh >> ~/.zshrc
 cat ./functions/fast_ping.sh >> ~/.zshrc
-cat ./functions/make_startup_directories.sh >> ~/.zshrc
 cat ./functions/nmap_quick_scan.sh >> ~/.zshrc
+cat ./functions/extract_nmap_info.sh >> ~/.zshrc
+cat ./functions/nmap_port_scanner.sh >> ~/.zshrc
+cat ./functions/make_startup_directories.sh >> ~/.zshrc
