@@ -1,11 +1,12 @@
 # First we update the packages
 sudo apt-get update -y
 
-# Security Related Tools
-sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep sed python3-impacket john responder lapsdumper -y
-
 # Development stuff
-sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger -y
+sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger xclip -y
+
+# Security Related Tools
+sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket john responder lapsdumper -y
+
 
 # Graphical stuff
 sudo apt-get install kitty dunst linux-headers-generic baobab libuv1-dev flameshot shotwell mupdf libxinerama-dev -y
