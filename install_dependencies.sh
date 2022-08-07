@@ -5,8 +5,13 @@ sudo apt-get update -y
 sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger xclip -y
 
 # Security Related Tools
-sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket john responder lapsdumper -y
+sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket jq john responder lapsdumper -y
 
+# Python stuff
+sudo apt-get install python3 python3-venv python3-pip -y
+
+# General packages for Python3
+pip3 install matplotlib numpy jupyterlab kerbrute usersgenerator ldap3 dnspython future ldapdomaindump flask-unsign pwn pwncat-cs
 
 # Graphical stuff
 sudo apt-get install kitty dunst linux-headers-generic baobab libuv1-dev flameshot shotwell mupdf libxinerama-dev -y
@@ -16,12 +21,6 @@ sudo apt install xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-i
 sudo apt-get install zsh zsh-syntax-highlighting zsh-autosuggestions -y
 sudo usermod --shell /usr/bin/zsh $USER
 sudo usermod --shell /usr/bin/zsh root
-
-# Python stuff
-sudo apt-get install python3 python3-venv python3-pip -y
-
-# General packages for Python3
-pip3 install matplotlib numpy jupyterlab kerbrute usersgenerator ldap3 dnspython future ldapdomaindump flask-unsign pwn
 
 # General Packages
 sudo apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev light -y
