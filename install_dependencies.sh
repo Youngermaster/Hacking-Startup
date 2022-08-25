@@ -2,7 +2,7 @@
 sudo apt-get update -y
 
 # Development stuff
-sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger xclip -y
+sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger xclip zap wpscan -y
 
 # Security Related Tools
 sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket jq john responder lapsdumper -y
