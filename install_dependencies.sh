@@ -5,7 +5,7 @@ sudo apt-get update -y
 sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger xclip zaproxy tor wpscan -y
 
 # Security Related Tools
-sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket jq john responder lapsdumper -y
+sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket jq john responder lapsdumper maltego maltego-teeth apktool -y
 
 # Python stuff
 sudo apt-get install python3 python3-venv python3-pip -y
