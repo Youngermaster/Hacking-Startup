@@ -6,6 +6,7 @@ sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch h
 
 # Security Related Tools
 sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket jq john responder lapsdumper maltego maltego-teeth apktool -y
+sudo apt install kali-linux-headless kali-tools-web kali-tools-top10 kali-tools-vulnerability -y
 
 # Python stuff
 sudo apt-get install python3 python3-venv python3-pip -y
