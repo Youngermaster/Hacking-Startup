@@ -14,6 +14,9 @@ sudo apt-get install python3 python3-venv python3-pip -y
 # General packages for Python3
 pip3 install matplotlib numpy jupyterlab kerbrute usersgenerator ldap3 dnspython future ldapdomaindump flask-unsign pwn pwncat-cs
 
+# VMWare dependencies
+sudo apt install -y --reinstall virtualbox-guest-x11 fuse3 open-vm-tools-desktop open-vm-tools-dev open-vm-tools
+
 # Graphical stuff
 sudo apt-get install kitty dunst linux-headers-generic baobab libuv1-dev flameshot shotwell mupdf libxinerama-dev -y
 sudo apt install xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev light -y
