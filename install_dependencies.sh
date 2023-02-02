@@ -4,6 +4,9 @@ sudo apt-get update -y
 # Development stuff
 sudo apt-get install vim git cmake g++ build-essential curl net-tools neofetch htop wget nmap ranger xclip zaproxy tor wpscan -y
 
+# Virtual manager dependencies added
+sudo apt install spice-client-gtk spice-vdagent -y
+
 # Security Related Tools
 sudo apt-get install seclists gobuster ghidra fping nmap crackmapexec htop grep wpscan sed python3-impacket jq john responder lapsdumper maltego maltego-teeth apktool -y
 sudo apt install kali-linux-headless kali-tools-web kali-tools-top10 kali-tools-vulnerability -y
